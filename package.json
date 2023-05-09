@@ -2,20 +2,20 @@
   "name": "proba-parcel",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://Alekhandro24.github.io/proba-parcel/",
+  "homepage": "https://Alekhandro24.github.io/parcel-template/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /proba-parcel/"
+    "build": "parcel build src/*.html --public-url /parcel-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alekhandro24/proba-parcel.git"
+    "url": "git+https://github.com/Alekhandro24/parcel-template.git"
   },
   "keywords": [],
   "author": "Alekhandro Lago Navarro <lagoalekhandro@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alekhandro24/proba-parcel/issues"
+    "url": "https://github.com/Alekhandro24/parcel-template/issues"
   },
   "devDependencies": {
     "parcel": "^2.8.3"
