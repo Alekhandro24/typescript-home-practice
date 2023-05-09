@@ -1,23 +1,24 @@
 {
   "name": "proba-parcel",
   "version": "1.0.0",
-  "description": "proba-parcel",
-  "main": "index.js",
+  "description": "",
+  "homepage": "https://Alekhandro24.github.io/proba-parcel/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /proba-parcel/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alekhandro24/proba-parcel.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alekhandro Lago Navarro <lagoalekhandro@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Alekhandro24/proba-parcel/issues"
   },
-  "homepage": "https://github.com/Alekhandro24/proba-parcel#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
